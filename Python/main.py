@@ -107,6 +107,7 @@ for mhs in listMhs:
 
 rosa = Dosen()
 rosa.setNik("3202444158963")
+rosa.setNip("199544126967421")
 rosa.setJk("P")
 rosa.setNama("Rosa Ariani")
 rosa.setPendTerakhir("S2 Teknik Informatika")
@@ -163,6 +164,7 @@ for asprak in listAsprak:
 
 print("\n=========== Data Dosen ===========")
 print("1. NIK                : ", rosa.getNik())
+print("   NIP                : " , rosa.getNip())
 print("   Nama               : " , rosa.getNama())
 print("   Jenis Kelamin      : " , rosa.getJk())
 print("   Pend. Terakhir     : " , rosa.getPendTerakhir())
